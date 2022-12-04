@@ -15,7 +15,7 @@ class _HomePageState extends State<HomePage> {
   bool midjump = false;
   static bool mushroomEaten = false;
   static double marioX = 0;
-  static double marioY = mushroomEaten ? 0.85 : 1;
+  static double marioY = mushroomEaten ? 0.95 : 1;
   double mushroomX = 0.5;
   double mushroomY = 1;
   double time = 0;
@@ -31,7 +31,7 @@ class _HomePageState extends State<HomePage> {
       midjump = false;
       mushroomEaten = false;
       marioX = 0;
-      marioY = mushroomEaten ? 0.85 : 1;
+      marioY = mushroomEaten ? 0.95 : 1;
       mushroomX = 0.5;
       mushroomY = 1;
       time = 0;
@@ -49,7 +49,7 @@ class _HomePageState extends State<HomePage> {
         //Move mushroom off the screen
         mushroomX = 2;
         if (marioY == 1) {
-          marioY = 0.85;
+          marioY = 0.95;
         }
       });
     }
@@ -73,7 +73,7 @@ class _HomePageState extends State<HomePage> {
 
         if (initialHeight - height > 1) {
           setState(() {
-            marioY = mushroomEaten ? 0.85 : 1;
+            marioY = mushroomEaten ? 0.95 : 1;
             timer.cancel();
             midjump = false;
           });
