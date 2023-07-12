@@ -44,4 +44,4 @@ Contributions to the Mario Bros game are welcome! If you encounter any issues or
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [GNU License](https://github.com/Alejandro-HUB/MarioBrosFlutter/blob/master/LICENSE).
